@@ -121,6 +121,11 @@ public class Etudiant {
        System.out.println("moyenne est "+moy+" invalide"); 
     
     }
+    @Override
+   public void afficher(){
+       super.afficher();
+       System.out.println("le CNE d'ETUDIANT est:" +CNE);
+   }
     
 }
 
